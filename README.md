@@ -197,9 +197,9 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pathum-sb&amp;theme=tokyonight&amp;name=Pathum%20Sanjaya%20Bandara" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pathum-sb&amp;theme=default&amp;name=Pathum%20Sanjaya%20Bandara" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pathum-sb&amp;theme=default&amp;name=Pathum%20Sanjaya%20Bandara" width="920" alt="GitHub contribution overview" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-details-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-details-light.svg" />
+  <img src="./assets/profile-details-light.svg" width="920" alt="GitHub contribution overview" />
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg" />
