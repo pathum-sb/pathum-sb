@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/pathum-sb"><img src="./assets/social/github.svg" width="38" height="38" alt="GitHub" /></a>
+  <img src="./assets/social/portfolio.svg" width="38" height="38" alt="Portfolio placeholder" title="Portfolio coming soon" />
   &nbsp;
   <a href="https://www.linkedin.com/in/pathumsanjaya"><img src="./assets/social/linkedin.svg" width="38" height="38" alt="LinkedIn" /></a>
   &nbsp;
@@ -28,23 +28,23 @@
 <p align="center">
   <a href="https://github.com/pathum-sb?tab=repositories"><img src="./assets/cta-projects.svg" width="240" height="52" alt="Explore My Projects" /></a>
   <a href="https://www.linkedin.com/in/pathumsanjaya"><img src="./assets/cta-linkedin.svg" width="240" height="52" alt="Connect on LinkedIn" /></a>
-  <a href="mailto:pathumsanjaya.me@gmail.com"><img src="./assets/cta-contact.svg" width="240" height="52" alt="Contact Me" /></a>
+  <img src="./assets/cta-portfolio.svg" width="240" height="52" alt="Visit My Portfolio placeholder" title="Portfolio coming soon" />
 </p>
 
 <p align="center">
-  <img src="./assets/coding-animation.svg" width="920" alt="Developer profile: Full-Stack Developer; B.ICT (Hons) in Software Technology at University of Sri Jayewardenepura; focused on full-stack and AI; interested in Software Engineering and Applied AI; building software that solves real problems; open to Software Engineering Internships." />
+  <img src="./assets/coding-animation.svg" width="920" alt="Developer profile: Full-Stack Developer; B.ICT (Hons) in Software Technology at University of Sri Jayewardenepura; focused on Web, full-stack development, and AI integration; building software that solves real problems." />
 </p>
 
 ## A little more about me
 
 <table>
   <tr>
-    <td width="50%" valign="top"><h3>01 / What I'm building</h3><p>Full-stack applications that connect clear interfaces with reliable backend services to solve everyday problems.</p></td>
-    <td width="50%" valign="top"><h3>02 / What I'm exploring</h3><p>Applied AI, retrieval-augmented generation, and practical ways to bring intelligent features into useful software.</p></td>
+    <td width="50%" valign="top"><h3>01 / What I'm building</h3><p>Full-stack applications that connect clear interfaces with reliable backend services to solve Business problems.</p></td>
+    <td width="50%" valign="top"><h3>02 / What I'm exploring</h3><p>AI integration, retrieval-augmented generation, and practical ways to bring intelligent features into useful software.</p></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><h3>03 / Let's collaborate</h3><p>Full-stack products, open-source projects, and applied AI ideas. Open to software engineering internships.</p></td>
-    <td width="50%" valign="top"><h3>04 / Ask me about</h3><p>React, TypeScript, Node.js, REST APIs, databases, and connecting AI models to real applications.</p></td>
+    <td width="50%" valign="top"><h3>03 / Let's collaborate</h3><p>Full-stack products, open-source projects, and Business digital transformation ideas.</p></td>
+    <td width="50%" valign="top"><h3>04 / Ask me about</h3><p>React, TypeScript, Node.js, REST APIs, databases, Building RAG pipelines, Training image classification models and connecting AI models to real applications.</p></td>
   </tr>
 </table>
 
@@ -152,25 +152,11 @@
   <img src="https://skillicons.dev/icons?i=mongodb&amp;theme=light" width="38" alt="MongoDB" />
 </picture>
 <img src="https://cdn.simpleicons.org/neo4j/0066FF" width="38" height="38" alt="Neo4j" title="Neo4j" />
-<br />
-<img src="https://img.shields.io/badge/pgvector-0B1F4B?style=flat-square" alt="pgvector" />
-<img src="https://img.shields.io/badge/Convex-0066FF?style=flat-square" alt="Convex" />
-<br /><sub>PostgreSQL · Supabase · MongoDB · Neo4j · pgvector · Convex</sub>
+<br /><sub>PostgreSQL · Supabase · MongoDB · Neo4j</sub>
     </td>
   </tr>
   <tr>
-    <td width="25%"><code>05</code><br /><strong>AI &amp; LLM Integration</strong></td>
-    <td>
-<img src="https://cdn.simpleicons.org/googlegemini/0066FF" width="38" height="38" alt="Gemini" title="Gemini" />
-<br />
-<img src="https://img.shields.io/badge/RAG-0B1F4B?style=flat-square" alt="RAG" />
-<img src="https://img.shields.io/badge/Groq-0066FF?style=flat-square" alt="Groq" />
-<img src="https://img.shields.io/badge/Azure%20Custom%20Vision-0B1F4B?style=flat-square" alt="Azure Custom Vision" />
-<br /><sub>Gemini · RAG · Groq · Azure Custom Vision</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="25%"><code>06</code><br /><strong>Development Tools &amp; Testing</strong></td>
+    <td width="25%"><code>05</code><br /><strong>Development Tools &amp; Testing</strong></td>
     <td>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git&amp;theme=dark" />
@@ -202,9 +188,7 @@
   <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=vscode&amp;theme=light" />
   <img src="https://skillicons.dev/icons?i=vscode&amp;theme=light" width="38" alt="VS Code" />
 </picture>
-<br />
-<img src="https://img.shields.io/badge/Supertest-0B1F4B?style=flat-square" alt="Supertest" />
-<br /><sub>Git · GitHub · Jest · Linux · Figma · VS Code · Supertest</sub>
+<br /><sub>Git · GitHub · Jest · Linux · Figma · VS Code</sub>
     </td>
   </tr>
 </table>
@@ -213,9 +197,9 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pathum-sb&amp;theme=tokyonight" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pathum-sb&amp;theme=default" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pathum-sb&amp;theme=default" width="920" alt="GitHub contribution overview" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pathum-sb&amp;theme=tokyonight&amp;name=Pathum%20Sanjaya%20Bandara" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pathum-sb&amp;theme=default&amp;name=Pathum%20Sanjaya%20Bandara" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pathum-sb&amp;theme=default&amp;name=Pathum%20Sanjaya%20Bandara" width="920" alt="GitHub contribution overview" />
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pathum-sb&amp;theme=tokyonight" />
@@ -223,9 +207,9 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pathum-sb&amp;theme=default" width="360" alt="GitHub statistics" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pathum-sb&amp;theme=tokyonight" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pathum-sb&amp;theme=default" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pathum-sb&amp;theme=default" width="360" alt="Repositories by language" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=pathum-sb&amp;layout=compact&amp;langs_count=6&amp;card_width=360&amp;custom_title=Language%20Breakdown&amp;hide_border=true&amp;disable_animations=true&amp;size_weight=0.5&amp;count_weight=0.5&amp;bg_color=09142E&amp;title_color=3B82F6&amp;text_color=FFFFFF&amp;icon_color=0066FF" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=pathum-sb&amp;layout=compact&amp;langs_count=6&amp;card_width=360&amp;custom_title=Language%20Breakdown&amp;hide_border=true&amp;disable_animations=true&amp;size_weight=0.5&amp;count_weight=0.5&amp;bg_color=FFFFFF&amp;title_color=0066FF&amp;text_color=0B1F4B&amp;icon_color=0066FF" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=pathum-sb&amp;layout=compact&amp;langs_count=6&amp;card_width=360&amp;custom_title=Language%20Breakdown&amp;hide_border=true&amp;disable_animations=true&amp;size_weight=0.5&amp;count_weight=0.5&amp;bg_color=FFFFFF&amp;title_color=0066FF&amp;text_color=0B1F4B&amp;icon_color=0066FF" width="360" alt="Programming language breakdown with percentages" />
 </picture>
 </div>
 
@@ -240,7 +224,7 @@
 <details>
   <summary>How to read this dashboard</summary>
 
-  The overview shows contribution activity, the statistics summarize public GitHub work, and the language card groups repositories by their primary language. These are activity snapshots, not measures of proficiency. The streak card tracks consecutive days with qualifying contributions. Third-party cards may be cached or temporarily unavailable.
+  The overview shows contribution activity, the statistics summarize public GitHub work, and the language card shows a percentage breakdown calculated from public repositories. These are activity snapshots, not measures of proficiency. The streak card tracks consecutive days with qualifying contributions. Third-party cards may be cached or temporarily unavailable.
 
   [Explore the repositories behind the numbers →](https://github.com/pathum-sb?tab=repositories)
 
