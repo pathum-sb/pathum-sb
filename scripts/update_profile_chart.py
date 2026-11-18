@@ -62,6 +62,6 @@ for theme, api_theme in (("dark", "tokyonight"), ("light", "default")):
             raise RuntimeError(f"Unexpected y-axis tick for {theme}")
         tick.set("transform", f"translate(0,{chart_y(float(match.group(1))):.3f})")
 
-    target = ROOT / "assets" / f"profile-details-{theme}.svg"
+    target = ROOT / "assets" / f"profile-details-{theme}-v2.svg"
     target.write_bytes(ET.tostring(root, encoding="utf-8", xml_declaration=True))
     print(f"Updated {target.relative_to(ROOT)}")

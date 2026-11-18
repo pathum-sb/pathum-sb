@@ -197,9 +197,9 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-details-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-details-light.svg" />
-  <img src="./assets/profile-details-light.svg" width="920" alt="GitHub contribution overview" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-details-dark-v2.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-details-light-v2.svg" />
+  <img src="./assets/profile-details-light-v2.svg" width="920" alt="GitHub contribution overview" />
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg" />
