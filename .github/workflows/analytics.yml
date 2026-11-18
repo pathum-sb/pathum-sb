@@ -1,0 +1,43 @@
+name: Refresh profile analytics
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-analytics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh cards
+        env:
+          # Optional: add a classic PAT as PROFILE_STATS_TOKEN (read:user, plus repo
+          # for private contributions). It falls back to the repo token.
+          GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_PROFILE_USER: pathum-sb
+        run: |
+          python scripts/update_stats_cards.py
+          python scripts/update_profile_chart.py
+          python scripts/update_streak_card.py
+      - name: Commit updated analytics
+        run: |
+          git add assets/stats-*.svg assets/profile-details-*.svg assets/streak-*.svg
+          if git diff --cached --quiet; then exit 0; fi
+          python scripts/update_timestamp.py
+          git add README.md
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh GitHub analytics'
+          git push

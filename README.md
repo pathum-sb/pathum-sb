@@ -204,7 +204,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/stats-light.svg" />
-  <img src="./assets/stats-light.svg" width="360" alt="GitHub statistics for stars, commits, pull requests, and contributions with GitHub logo" />
+  <img src="./assets/stats-light.svg" width="360" alt="GitHub statistics for stars, commit contributions, pull requests, and repositories contributed to, with GitHub logo" />
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=pathum-sb&amp;layout=donut&amp;langs_count=5&amp;card_width=300&amp;custom_title=Language%20Breakdown&amp;hide_border=true&amp;disable_animations=true&amp;size_weight=0.5&amp;count_weight=0.5&amp;bg_color=09142E&amp;title_color=3B82F6&amp;text_color=FFFFFF" />
@@ -224,11 +224,13 @@
 <details>
   <summary>How to read this dashboard</summary>
 
-  The overview shows contribution activity, the statistics summarize public GitHub work, and the language card shows a percentage breakdown calculated from public repositories. These are activity snapshots, not measures of proficiency. The streak card tracks consecutive days with qualifying contributions. Third-party cards may be cached or temporarily unavailable.
+  The overview shows contribution activity for the last year, the statistics summarize stars, commit contributions, pull requests and repositories you've contributed to, and the language card shows a percentage breakdown calculated from public repositories. Counts come from the GitHub API and include private contributions when the refresh token is allowed to see them. These are activity snapshots, not measures of proficiency. The streak card tracks consecutive days with qualifying contributions. Partial months are marked with an asterisk because GitHub's window starts and ends mid-month. Third-party cards may be cached or temporarily unavailable; this dashboard is checked every six hours.
 
   [Explore the repositories behind the numbers →](https://github.com/pathum-sb?tab=repositories)
 
 </details>
+
+<p align="center"><sub>Dashboard last refreshed: <!-- STATS_UPDATED:START -->18 Nov 2026, 14:11 UTC<!-- STATS_UPDATED:END --></sub></p>
 
 ## Contribution journey
 
