@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="52" viewBox="0 0 240 52" role="img" aria-labelledby="title">
+<title id="title">Connect on LinkedIn</title>
+<style>@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
+<style>.arrow{animation:nudge 2.6s ease-in-out infinite}.accent{animation:glow 3s ease-in-out infinite}@keyframes nudge{50%{transform:translateX(4px)}}@keyframes glow{50%{opacity:.4}}</style>
+<rect x="1" y="1" width="238" height="50" rx="13" fill="#0B1F4B" stroke="#3B82F6"/>
+<rect class="accent" x="20" y="43" width="34" height="2" rx="1" fill="#3B82F6"/>
+<text x="20" y="31" fill="#FFFFFF" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">Connect on LinkedIn</text>
+<path class="arrow" d="M208 26h12m-5-5 5 5-5 5" fill="none" stroke="#93C5FD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

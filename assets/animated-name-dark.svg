@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="128" viewBox="0 0 920 128" role="img" aria-labelledby="title">
+<title id="title">Hi, I&#x27;m Pathum Sanjaya Bandara</title>
+<style>@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
+
+<defs><linearGradient id="shine"><stop stop-color="#0066FF" stop-opacity="0"/><stop offset=".5" stop-color="#3B82F6"/><stop offset="1" stop-color="#0066FF" stop-opacity="0"/></linearGradient><clipPath id="letters"><text x="42" y="76" font-family="Segoe UI,Arial,sans-serif" font-size="40" font-weight="700">Hi, I'm Pathum Sanjaya Bandara</text></clipPath></defs>
+<style>
+ .wave { transform-origin: 850px 63px; animation: wave 3s ease-in-out infinite; }
+ .line { transform-origin: center; animation: line 4s ease-in-out infinite; }
+ .shimmer { animation: shimmer 5s ease-in-out infinite; }
+ @keyframes wave { 0%,60%,100% {transform:rotate(0deg)} 10%,30% {transform:rotate(16deg)} 20%,40% {transform:rotate(-10deg)} }
+ @keyframes line { 0%,100% {transform:scaleX(.65);opacity:.6} 50% {transform:scaleX(1);opacity:1} }
+ @keyframes shimmer { 0%,15% {transform:translateX(0)} 75%,100% {transform:translateX(1100px)} }
+</style>
+<text x="460" y="23" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="5" fill="#3B82F6">IDEAS INTO WORKING SOFTWARE</text>
+<text x="42" y="76" font-family="Segoe UI,Arial,sans-serif" font-size="40" font-weight="700" fill="#FFFFFF">Hi, I'm Pathum Sanjaya Bandara</text>
+<g clip-path="url(#letters)"><rect class="shimmer" x="-180" y="35" width="180" height="50" fill="url(#shine)"/></g>
+<text class="wave" x="824" y="76" font-family="Segoe UI Emoji,Apple Color Emoji,sans-serif" font-size="38">👋</text>
+<rect class="line" x="320" y="105" width="280" height="3" rx="1.5" fill="#0066FF"/>
+</svg>

@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.tmp
+.vscode/
+.idea/
+dist/
+.preview/
+__pycache__/
+graphify-out/

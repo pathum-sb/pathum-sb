@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="426" viewBox="0 0 920 426" role="img" aria-labelledby="title">
+<title id="title">Developer profile: Pathum Sanjaya Bandara, full-stack developer, open to software engineering internships</title>
+<style>@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
+<style>.cursor{animation:blink 1.2s steps(2,start) infinite}.active{animation:pulse 4s ease-in-out infinite}@keyframes blink{to{opacity:0}}@keyframes pulse{50%{opacity:.4}}</style>
+<rect x="1" y="1" width="918" height="424" rx="18" fill="#0F172A" stroke="#27416B"/>
+<path d="M19 1H901Q919 1 919 19V54H1V19Q1 1 19 1" fill="#0B1F4B"/>
+<circle cx="26" cy="27" r="5" fill="#3B82F6"/><circle cx="44" cy="27" r="5" fill="#66A3FF"/><circle cx="62" cy="27" r="5" fill="#BFD7FF"/>
+<text x="90" y="33" fill="#FFFFFF" font-family="Segoe UI,Arial,sans-serif" font-size="14">profile.ts</text>
+<text x="894" y="32" text-anchor="end" fill="#93C5FD" font-family="Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="2">PSB / DEVELOPER</text>
+<rect class="active" x="2" y="306" width="916" height="29" fill="#0066FF" opacity=".16"/>
+<rect x="2" y="306" width="3" height="29" fill="#0066FF"/>
+<text x="35" y="93" fill="#64748B" text-anchor="end" font-family="Consolas,monospace" font-size="15">1</text>
+<text x="64" y="93" xml:space="preserve" font-family="Consolas,monospace" font-size="18"><tspan fill="#C4B5FD">const </tspan><tspan fill="#FFFFFF">developer</tspan><tspan fill="#94A3B8"> = {</tspan></text>
+<text x="35" y="122" fill="#64748B" text-anchor="end" font-family="Consolas,monospace" font-size="15">2</text>
+<text x="64" y="122" xml:space="preserve" font-family="Consolas,monospace" font-size="18"><tspan fill="#93C5FD">  name: </tspan><tspan fill="#D1FAE5">&quot;Pathum Sanjaya Bandara&quot;,</tspan></text>
+<text x="35" y="151" fill="#64748B" text-anchor="end" font-family="Consolas,monospace" font-size="15">3</text>
+<text x="64" y="151" xml:space="preserve" font-family="Consolas,monospace" font-size="18"><tspan fill="#93C5FD">  role: </tspan><tspan fill="#D1FAE5">&quot;Full-Stack Developer&quot;,</tspan></text>
+<text x="35" y="180" fill="#64748B" text-anchor="end" font-family="Consolas,monospace" font-size="15">4</text>
+<text x="64" y="180" xml:space="preserve" font-family="Consolas,monospace" font-size="18"><tspan fill="#93C5FD">  education: </tspan><tspan fill="#D1FAE5">&quot;B.ICT (Hons) in Software Technology&quot;,</tspan></text>
+<text x="35" y="209" fill="#64748B" text-anchor="end" font-family="Consolas,monospace" font-size="15">5</text>
+<text x="64" y="209" xml:space="preserve" font-family="Consolas,monospace" font-size="18"><tspan fill="#93C5FD">  university: </tspan><tspan fill="#D1FAE5">&quot;University of Sri Jayewardenepura&quot;,</tspan></text>
+<text x="35" y="238" fill="#64748B" text-anchor="end" font-family="Consolas,monospace" font-size="15">6</text>
+<text x="64" y="238" xml:space="preserve" font-family="Consolas,monospace" font-size="18"><tspan fill="#93C5FD">  focus: </tspan><tspan fill="#D1FAE5">[&quot;full-stack&quot;, &quot;AI&quot;],</tspan></text>
+<text x="35" y="267" fill="#64748B" text-anchor="end" font-family="Consolas,monospace" font-size="15">7</text>
+<text x="64" y="267" xml:space="preserve" font-family="Consolas,monospace" font-size="18"><tspan fill="#93C5FD">  interests: </tspan><tspan fill="#D1FAE5">[&quot;Software Engineering&quot;, &quot;Applied AI&quot;],</tspan></text>
+<text x="35" y="296" fill="#64748B" text-anchor="end" font-family="Consolas,monospace" font-size="15">8</text>
+<text x="64" y="296" xml:space="preserve" font-family="Consolas,monospace" font-size="18"><tspan fill="#93C5FD">  status: </tspan><tspan fill="#D1FAE5">&quot;building software that solves real problems&quot;,</tspan></text>
+<text x="35" y="325" fill="#64748B" text-anchor="end" font-family="Consolas,monospace" font-size="15">9</text>
+<text x="64" y="325" xml:space="preserve" font-family="Consolas,monospace" font-size="18"><tspan fill="#93C5FD">  openTo: </tspan><tspan fill="#D1FAE5">&quot;Software Engineering Internships&quot;</tspan></text>
+<text x="35" y="354" fill="#64748B" text-anchor="end" font-family="Consolas,monospace" font-size="15">10</text>
+<text x="64" y="354" xml:space="preserve" font-family="Consolas,monospace" font-size="18"><tspan fill="#94A3B8">};</tspan></text>
+<rect class="cursor" x="88" y="339" width="9" height="20" fill="#0066FF"/><path d="M1 380H919" stroke="#27416B"/><text x="24" y="408" fill="#93C5FD" font-family="Segoe UI,Arial,sans-serif" font-size="12">TypeScript</text><text x="894" y="408" text-anchor="end" fill="#CBD5E1" font-family="Segoe UI,Arial,sans-serif" font-size="12">Open to software engineering internships</text>
+</svg>
