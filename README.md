@@ -16,11 +16,11 @@
 </p>
 
 <p align="center">
-  <img src="./assets/social/portfolio.svg" width="38" height="38" alt="Portfolio placeholder" title="Portfolio coming soon" />
+  <a href="https://github.com/pathum-sb"><img src="./assets/social/portfolio.svg" width="38" height="38" alt="Visit my GitHub profile" title="Visit my GitHub profile" /></a>
   &nbsp;
   <a href="https://www.linkedin.com/in/pathumsanjaya"><img src="./assets/social/linkedin.svg" width="38" height="38" alt="LinkedIn" /></a>
   &nbsp;
-  <a href="mailto:pathumsanjaya.me@gmail.com"><img src="./assets/social/email.svg" width="38" height="38" alt="Email Pathum" /></a>
+  <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=pathumsanjaya.me@gmail.com"><img src="./assets/social/email.svg" width="38" height="38" alt="Send an email to Pathum" title="Send me an email" /></a>
   <br /><br />
   <img src="https://komarev.com/ghpvc/?username=pathum-sb&amp;label=PROFILE%20VIEWS&amp;style=flat-square&amp;color=0066FF" alt="Profile views" />
 </p>
@@ -39,12 +39,12 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top"><h3>01 / What I'm building</h3><p>Full-stack applications that connect clear interfaces with reliable backend services to solve Business problems.</p></td>
-    <td width="50%" valign="top"><h3>02 / What I'm exploring</h3><p>AI integration, retrieval-augmented generation, and practical ways to bring intelligent features into useful software.</p></td>
+    <td width="50%" valign="top"><p><strong>01 / What I'm building</strong></p><p>Full-stack applications that connect clear interfaces with reliable backend services to solve Business problems.</p></td>
+    <td width="50%" valign="top"><p><strong>02 / What I'm exploring</strong></p><p>AI integration, retrieval-augmented generation, and practical ways to bring intelligent features into useful software.</p></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><h3>03 / Let's collaborate</h3><p>Full-stack products, open-source projects, and Business digital transformation ideas.</p></td>
-    <td width="50%" valign="top"><h3>04 / Ask me about</h3><p>React, TypeScript, Node.js, REST APIs, databases, Building RAG pipelines, Training image classification models and connecting AI models to real applications.</p></td>
+    <td width="50%" valign="top"><p><strong>03 / Let's collaborate</strong></p><p>Full-stack products, open-source projects, and Business digital transformation ideas.</p></td>
+    <td width="50%" valign="top"><p><strong>04 / Ask me about</strong></p><p>React, TypeScript, Node.js, REST APIs, databases, Building RAG pipelines, Training image classification models and connecting AI models to real applications.</p></td>
   </tr>
 </table>
 
