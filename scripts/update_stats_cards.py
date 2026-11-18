@@ -80,8 +80,8 @@ for theme, colors in THEMES.items():
     root = ET.fromstring(svg)
     style = next(el for el in root.iter() if el.tag == f"{{{SVG_NS}}}style")
     style.text = style.text.replace("font: 600 18px", "font: 600 22px")
-    style.text = style.text.replace("font: 600 14px", "font: 400 24px")
-    style.text = style.text.replace(".stat { font-size:12px; }", ".stat { font-size:24px; }")
+    style.text = style.text.replace("font: 600 14px", "font: 400 20px")
+    style.text = style.text.replace(".stat { font-size:12px; }", ".stat { font-size:20px; }")
     title = next(el for el in root.iter() if el.get("data-testid") == "card-title")
     title.set("transform", "translate(36, 43)")
     body = next(el for el in root.iter() if el.get("data-testid") == "main-card-body")
@@ -92,7 +92,7 @@ for theme, colors in THEMES.items():
     rank = next((el for el in root.iter() if el.get("data-testid") == "rank-circle"), None)
     if rank is None:
         raise RuntimeError(f"Stats service did not return the rank group for {theme}")
-    rank.set("transform", "translate(353, 60)")
+    rank.set("transform", "translate(375, 60)")
     for child in list(rank):
         if child.tag == f"{{{SVG_NS}}}circle":
             rank.remove(child)
@@ -116,7 +116,7 @@ for theme, colors in THEMES.items():
             if el.get("class", "").startswith("stat "):
                 el.set("y", "22")
             if el.get("data-testid") in {"stars", "commits", "prs", "contribs"}:
-                el.set("x", "205")
+                el.set("x", "250")
         if el.get("data-testid") == "icon":
             el.set("y", "4")
         if el.get("data-testid") in metrics:
