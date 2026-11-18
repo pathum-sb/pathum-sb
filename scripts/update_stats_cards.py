@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 THEMES = {
-    "dark": {"bg_color": "1A1B27", "title_color": "70A5FD", "text_color": "38BDAE", "icon_color": "BF91F3"},
+    "dark": {"bg_color": "09142E", "title_color": "3B82F6", "text_color": "38BDAE", "icon_color": "BF91F3"},
     "light": {"bg_color": "FFFFFF", "title_color": "0066FF", "text_color": "0B1F4B", "icon_color": "0066FF"},
 }
 SVG_NS = "http://www.w3.org/2000/svg"
@@ -36,6 +36,8 @@ for theme, colors in THEMES.items():
     root = ET.fromstring(svg)
     style = next(el for el in root.iter() if el.tag == f"{{{SVG_NS}}}style")
     style.text = style.text.replace("font: 600 18px", "font: 600 22px")
+    style.text = style.text.replace("font: 600 14px", "font: 400 24px")
+    style.text = style.text.replace(".stat { font-size:12px; }", ".stat { font-size:24px; }")
     title = next(el for el in root.iter() if el.get("data-testid") == "card-title")
     title.set("transform", "translate(36, 43)")
     body = next(el for el in root.iter() if el.get("data-testid") == "main-card-body")
@@ -67,8 +69,12 @@ for theme, colors in THEMES.items():
         if el.tag == f"{{{SVG_NS}}}text":
             if el.text in labels:
                 el.text = labels[el.text]
+            if el.get("class", "").startswith("stat "):
+                el.set("y", "22")
             if el.get("data-testid") in {"stars", "commits", "prs", "contribs"}:
-                el.set("x", "170")
+                el.set("x", "205")
+        if el.get("data-testid") == "icon":
+            el.set("y", "4")
     if not all(name in svg for name in ("Total Stars", "Total Commits", "Total PRs", "Contributed to")):
         raise RuntimeError(f"Stats service omitted a required stat for {theme}")
     target = ROOT / "assets" / f"stats-{theme}.svg"
