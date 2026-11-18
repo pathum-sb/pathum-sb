@@ -17,6 +17,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/update_profile_chart.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit updated chart
         run: |
           git add assets/profile-details-dark-v2.svg assets/profile-details-light-v2.svg

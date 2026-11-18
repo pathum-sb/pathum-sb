@@ -17,6 +17,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/update_stats_cards.py
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit updated cards
         run: |
           git add assets/stats-dark.svg assets/stats-light.svg

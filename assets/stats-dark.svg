@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="437" height="270" viewBox="0 0 437 270" fill="none" role="img" aria-labelledby="descId">
         <title id="titleId">Stats, Rank: C</title>
-        <desc id="descId">Total Stars Earned: 0, Total Commits  (last year) : 5, Total PRs: 25, Contributed to (last year): 3</desc>
+        <desc id="descId">Total Stars: 0, Total Commits: 44, Total PRs: 25, Contributed to: 8</desc>
         <style>
           .header {
             font: 600 22px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -135,7 +135,7 @@
     </svg>
   
       <text class="stat not_bold" x="25" y="22">Total Commits:</text>
-      <text class="stat not_bold" x="205" y="22" data-testid="commits">5</text>
+      <text class="stat not_bold" x="205" y="22" data-testid="commits">44</text>
     </g>
   </g><g transform="translate(0, 90)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(36, 0)">
@@ -155,7 +155,7 @@
     </svg>
   
       <text class="stat not_bold" x="25" y="22">Contributed to:</text>
-      <text class="stat not_bold" x="205" y="22" data-testid="contribs">3</text>
+      <text class="stat not_bold" x="205" y="22" data-testid="contribs">8</text>
     </g>
   </g>
     </svg>

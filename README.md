@@ -215,9 +215,9 @@
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=pathum-sb&amp;hide_border=true&amp;disable_animations=true&amp;ring=0066FF&amp;fire=0066FF&amp;currStreakLabel=0066FF&amp;background=09142E&amp;currStreakNum=FFFFFF&amp;sideNums=FFFFFF&amp;sideLabels=FFFFFF&amp;dates=94A3B8" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=pathum-sb&amp;hide_border=true&amp;disable_animations=true&amp;ring=0066FF&amp;fire=0066FF&amp;currStreakLabel=0066FF&amp;background=FFFFFF&amp;currStreakNum=0B1F4B&amp;sideNums=0B1F4B&amp;sideLabels=0B1F4B&amp;dates=475569" />
-  <img src="https://streak-stats.demolab.com?user=pathum-sb&amp;hide_border=true&amp;disable_animations=true&amp;ring=0066FF&amp;fire=0066FF&amp;currStreakLabel=0066FF&amp;background=FFFFFF&amp;currStreakNum=0B1F4B&amp;sideNums=0B1F4B&amp;sideLabels=0B1F4B&amp;dates=475569" width="720" alt="GitHub contribution streak" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/streak-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/streak-light.svg" />
+  <img src="./assets/streak-light.svg" width="720" alt="GitHub contribution streak" />
 </picture>
 </p>
 
