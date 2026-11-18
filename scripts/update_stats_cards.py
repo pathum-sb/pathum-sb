@@ -22,12 +22,15 @@ if not token:
     token = subprocess.check_output(["gh", "auth", "token"], text=True).strip()
 year = datetime.now(timezone.utc).year
 year_queries = " ".join(
-    f'y{y}: contributionsCollection(from:"{y}-01-01T00:00:00Z",to:"{y}-12-31T23:59:59Z") {{ totalCommitContributions }}'
+    f'''y{y}: contributionsCollection(from:"{y}-01-01T00:00:00Z",to:"{y}-12-31T23:59:59Z") {{
+      totalCommitContributions
+      commitContributionsByRepository(maxRepositories: 100) {{ repository {{ nameWithOwner }} }}
+      pullRequestContributionsByRepository(maxRepositories: 100) {{ repository {{ nameWithOwner }} }}
+    }}'''
     for y in range(2024, year + 1)
 )
 query = f'''query {{ user(login:"pathum-sb") {{
   pullRequests {{ totalCount }}
-  repositoriesContributedTo(first:1,includeUserRepositories:true,privacy:PUBLIC,contributionTypes:[COMMIT,ISSUE,PULL_REQUEST,REPOSITORY]) {{ totalCount }}
   repositories(first:100,privacy:PUBLIC,isFork:false,ownerAffiliations:OWNER) {{ totalCount nodes {{ stargazerCount }} }}
   {year_queries}
 }} }}'''
@@ -38,11 +41,16 @@ with urlopen(request, timeout=30) as response:
 if result.get("errors") or not result.get("data", {}).get("user"):
     raise RuntimeError("GitHub did not return complete stats")
 user = result["data"]["user"]
+contributed_repositories = set()
+for y in range(2024, year + 1):
+    collection = user[f"y{y}"]
+    for key in ("commitContributionsByRepository", "pullRequestContributionsByRepository"):
+        contributed_repositories.update(item["repository"]["nameWithOwner"] for item in collection[key])
 metrics = {
     "stars": sum(repo["stargazerCount"] for repo in user["repositories"]["nodes"]),
     "commits": sum(user[f"y{y}"]["totalCommitContributions"] for y in range(2024, year + 1)),
     "prs": user["pullRequests"]["totalCount"],
-    "contribs": user["repositoriesContributedTo"]["totalCount"],
+    "contribs": len(contributed_repositories),
 }
 
 for theme, colors in THEMES.items():
@@ -97,7 +105,7 @@ for theme, colors in THEMES.items():
     labels = {
         "Total Stars Earned:": "Total Stars:",
         "Total Commits (last year):": "Total Commits:",
-        "Contributed to (last year):": "Contributed to:",
+        "Contributed to (last year):": "Repos contributed to:",
     }
     for el in root.iter():
         if el.tag == f"{{{SVG_NS}}}g" and el.get("transform") == "translate(25, 0)":
