@@ -80,8 +80,8 @@ for theme, colors in THEMES.items():
     root = ET.fromstring(svg)
     style = next(el for el in root.iter() if el.tag == f"{{{SVG_NS}}}style")
     style.text = style.text.replace("font: 600 18px", "font: 600 22px")
-    style.text = style.text.replace("font: 600 14px", "font: 400 20px")
-    style.text = style.text.replace(".stat { font-size:12px; }", ".stat { font-size:20px; }")
+    style.text = style.text.replace("font: 600 14px", "font: 400 18px")
+    style.text = style.text.replace(".stat { font-size:12px; }", ".stat { font-size:18px; }")
     title = next(el for el in root.iter() if el.get("data-testid") == "card-title")
     title.set("transform", "translate(36, 43)")
     body = next(el for el in root.iter() if el.get("data-testid") == "main-card-body")
@@ -116,7 +116,7 @@ for theme, colors in THEMES.items():
             if el.get("class", "").startswith("stat "):
                 el.set("y", "22")
             if el.get("data-testid") in {"stars", "commits", "prs", "contribs"}:
-                el.set("x", "250")
+                el.set("x", "235")
         if el.get("data-testid") == "icon":
             el.set("y", "4")
         if el.get("data-testid") in metrics:

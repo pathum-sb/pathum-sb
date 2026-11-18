@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="437" height="270" viewBox="0 0 437 270" fill="none" role="img" aria-labelledby="descId">
         <title id="titleId">Stats, Rank: C</title>
-        <desc id="descId">Total Stars: 0, Total Commits: 46, Total PRs: 25, Contributed to: 13</desc>
+        <desc id="descId">Total Stars: 0, Total Commits: 47, Total PRs: 25, Contributed to: 13</desc>
         <style>
           .header {
             font: 600 22px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -14,11 +14,11 @@
           }
           
     .stat {
-      font: 400 20px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #0B1F4B;
+      font: 400 18px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #0B1F4B;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
-      .stat { font-size:20px; }
+      .stat { font-size:18px; }
     }
     .stagger {
       opacity: 0;
@@ -125,7 +125,7 @@
     </svg>
   
       <text class="stat not_bold" x="25" y="22">Total Stars:</text>
-      <text class="stat not_bold" x="250" y="22" data-testid="stars">0</text>
+      <text class="stat not_bold" x="235" y="22" data-testid="stars">0</text>
     </g>
   </g><g transform="translate(0, 45)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(36, 0)">
@@ -135,7 +135,7 @@
     </svg>
   
       <text class="stat not_bold" x="25" y="22">Total Commits:</text>
-      <text class="stat not_bold" x="250" y="22" data-testid="commits">46</text>
+      <text class="stat not_bold" x="235" y="22" data-testid="commits">47</text>
     </g>
   </g><g transform="translate(0, 90)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(36, 0)">
@@ -145,7 +145,7 @@
     </svg>
   
       <text class="stat not_bold" x="25" y="22">Total PRs:</text>
-      <text class="stat not_bold" x="250" y="22" data-testid="prs">25</text>
+      <text class="stat not_bold" x="235" y="22" data-testid="prs">25</text>
     </g>
   </g><g transform="translate(0, 135)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(36, 0)">
@@ -155,7 +155,7 @@
     </svg>
   
       <text class="stat not_bold" x="25" y="22">Repos contributed to:</text>
-      <text class="stat not_bold" x="250" y="22" data-testid="contribs">13</text>
+      <text class="stat not_bold" x="235" y="22" data-testid="contribs">13</text>
     </g>
   </g>
     </svg>
